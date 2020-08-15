@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0 ;
+    background: lightblue;
+}
+#title{
+position: absolute;
+float :left;
+}
+#game{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    position: absolute;
+    overflow: hidden;
+    float: right;
+    top: 10%;
+    left: 30%;
+    background-color: black;
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 1000000;
+}
+.block{
+    width: 500px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
