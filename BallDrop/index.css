@@ -45,3 +45,17 @@ float :left;
     top: 100px;
     margin-top: -20px;
 }
+
+@media screen and (max-width:1000px){
+        #title,#game{
+            position: relative;
+            display: block;
+            float: none;
+            margin: 0 auto;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            
+            
+        }
+}
